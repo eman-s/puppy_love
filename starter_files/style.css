@@ -69,10 +69,13 @@ ul > li {
   padding-top: 20px;
 
 }
-section > table, tr {
+section > table, tr, td {
   border-style: solid;
   border-width: thin;
-  border-color: blue;
+  border-color: #1fabe5;
+  border-collapse: collapse;
+  font-size: small;
+  padding: 10px;
 }
 #logo img{
   width: 150px;
@@ -87,14 +90,33 @@ nav.main_navigation {
 #page_content h3 {
   font-size: medium;
 }
-#page_content h2 {
+#page_content h2  {
   font-size: large;
 }
 ul {
   font-size: smaller;
   padding-left: 15px;
-  font-color: #dddddd;
+  color: #444951;
 }
 #page_content section p {
   font-size: smaller;
+
+}
+
+img {
+  width: 50px;
+}
+thead {
+  background-color: #046c97;
+  color: white;
+}
+#top_table_border {
+  border-bottom: solid #dddddd;
+  padding-bottom: 50px;
+  border-top: solid #dddddd;
+  padding-top: 20px;
+
+
+
+
 }
